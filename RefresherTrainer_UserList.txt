@@ -1,0 +1,16 @@
+	Part-1A
+	
+1	Create procedure for find category based on event Batch
+2	Create Excel Template For FileUpload
+3	Check UserInfo against event participant table ()=> All user information are correct not not
+4	Maintain flag value against excel upload
+5	If flag is success, when trainer click submit button only save excel user inforamtion in db
+6	Finally Insert user Info into Main Table
+	
+	Part-2A
+1	Create DateRange selector and search button
+2	Load Gird Based on selected date fall in batchId dates
+	Grid Column(Categoryname,BatchStartDate,BatchEndDate,TrainerName,UserCount,ActionIcon)
+3	If Trainer check batchRow in grid based on import User score in excel sheet
+4	While uploading validate mandatory column fields and validate against column vs row wise
+5	Show confirm modal when submit user score information in db
